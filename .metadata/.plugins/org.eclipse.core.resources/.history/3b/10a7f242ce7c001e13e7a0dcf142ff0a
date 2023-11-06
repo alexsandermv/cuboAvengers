@@ -23,7 +23,6 @@ public class OperacoesMatematicas {
 		System.out.print("Digite o segundo valor: ");
 		valor2 = entradaDeDados.nextInt();
 		
-		
 		System.out.println("Seu nome é " + nome + " e as operações matemáticas são: ");
 		
 		
