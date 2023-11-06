@@ -1,0 +1,24 @@
+package avengers;
+
+import java.util.Scanner;
+
+public class entradaDados {
+
+	public static void main(String[] args) {
+
+		String nome;
+		int idade;
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Qual seu nome?");
+		nome = teclado.nextLine();
+		System.out.println("Qual sua idade:");
+		idade = teclado.nextInt();
+
+		System.out.println("Muito Prazer, " + nome);
+		System.out.println("Sua idade é: " + idade);
+		
+	}
+
+}

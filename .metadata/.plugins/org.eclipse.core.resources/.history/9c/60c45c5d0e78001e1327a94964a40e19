@@ -1,0 +1,11 @@
+package avengers;
+
+public class PrimeiroPrograma {
+	public int numero;
+	
+	public static void main(String[] args) {
+		
+		System.out.println("HELLO WORLD");
+	}
+	
+}
