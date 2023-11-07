@@ -20,10 +20,10 @@ public class JogoDoAdivinha {
 		System.out.print("Digite um número DE 1 a 5: ");
 		numeroInformado = entradaDados.nextInt();
 		
-		resultadoSorteio = numeroInformado == numeroSorteado ? "Õ/ GANHOOOOOOOU Õ/" : "perdeu :(";
+		resultadoSorteio = numeroInformado == numeroSorteado ? "\Õ/ GANHOOOOOOOU \Õ/" : "perdeu :(";
 		
 		
-		System.out.println("Você escolheu " + numeroInformado + " e número sorteado foi "+ numeroSorteado + " você " + resultadoSorteio);
+		System.out.println("O número sorteado foi "+ numeroSorteado + " e você " + resultadoSorteio);
 		
 				
 	}
