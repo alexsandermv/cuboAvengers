@@ -1,0 +1,13 @@
+package avengers;
+
+public class Random {
+
+	public static void main(String[] args) {
+
+		double aleatorio = Math.random();
+		
+		System.out.println(aleatorio);
+
+	}
+
+}

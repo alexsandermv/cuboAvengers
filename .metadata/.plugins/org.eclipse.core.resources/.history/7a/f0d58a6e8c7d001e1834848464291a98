@@ -1,0 +1,14 @@
+package avengers;
+
+public class Random {
+
+	public static void main(String[] args) {
+
+		double aleatorio = Math.random(); // valor aleatório entre 0 e 1.0
+		double aleatrorioIntervalo = 0 + aleatorio * (10 - 0)
+		
+		System.out.println(aleatorio);
+
+	}
+
+}

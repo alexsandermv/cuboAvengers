@@ -1,0 +1,16 @@
+package avengers;
+
+public class NotacaoPonto {
+
+	public static void main(String[] args) {
+
+		
+		String nome;
+		String nome1 = "João";
+		String nome2 = new String("João");  // construtor
+		
+		System.out.println(nome == nome2);
+		
+	}
+
+}
