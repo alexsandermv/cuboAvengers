@@ -1,0 +1,25 @@
+package exercicioJava;
+
+import java.util.Scanner;
+
+public class DiasDaSemana {
+
+	public static void main(String[] args) {
+		String diaDaSemana;
+		
+		Scanner inputDados = new Scanner (System.in);
+		System.out.println("++++++++++++++++++++++++++++++++");
+		System.out.println("    D I A S   D A   S E M A N A ");
+		System.out.println("+++++++++++++++++++++++++++++++++");
+		System.out.print("Digite o dia da semana: ");
+		diaDaSemana = inputDados.nextLine();
+		
+		if (diaDaSemana.toUpperCase() == "SEGUNDA") {
+			System.out.println("Segunda é o 2º dia da semana");
+		}
+		
+		
+
+	}
+
+}
