@@ -1,0 +1,16 @@
+package avengers;
+
+public class ForPara {
+
+	public static void main(String[] args) {
+
+		for (int i = 10; i<20; i++) {  // estrutura PARA do VisualG ++ incremento
+			System.out.println("i = " + i);
+		}
+
+		for (int i = 10; i>=0; i--) {  // -- decremento
+			System.out.println("i = " + i);
+		}
+	}
+
+}
