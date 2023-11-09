@@ -13,8 +13,7 @@ public class DiasDaSemana {
 		System.out.println("++++++++++++++++++++++++++++++++");
 		System.out.print("Digite um dia da semana: ");
 		diaDaSemana = inputDados.nextLine();
-		diaDaSemana = diaDaSemana.replace('Ç', 'C');
-		
+		diaDaSemana = diaDaSemana.replaceAll(Ç, C)
 		if (diaDaSemana.equalsIgnoreCase("DOMINGO")) {
 			System.out.println("Domingo é o 1º dia da semana");
 		} else if (diaDaSemana.equalsIgnoreCase("SEGUNDA")) {
