@@ -1,0 +1,14 @@
+package avengers;
+
+public class ManipulandoString {
+
+	public static void main(String[] args) {
+
+		String texto = "Avengers";
+		
+		System.out.println(texto.toLowerCase());
+		System.out.println(texto.toUpperCase());
+
+	}
+
+}

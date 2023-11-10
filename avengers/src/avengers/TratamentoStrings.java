@@ -14,7 +14,7 @@ public class TratamentoStrings {
 		System.out.println(cubo.substring(0,1).toUpperCase().concat(cubo.substring(1))); // Mostrar somente a primeira letra em maiusculo 
 		System.out.println(cubo.toUpperCase()); 		//tudo em caixa alta
 		System.out.println(cubo.toLowerCase()); 		//tudo em minúsculo
-		System.out.println(cubo.length()); 				// quantidade de caracteres
+		System.out.println(cubo.length()); 				// quantidade de caracteres da variável
 		System.out.println(cubo.charAt(5));  			// mostra somente o caracter da quinta casa começa no zero
 				
 		
