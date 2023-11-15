@@ -1,0 +1,26 @@
+package exercicioJava;
+
+import java.util.Scanner;
+
+public class ArrayMedia {
+
+	public static void main(String[] args) {
+
+		Scanner inputDados = new Scanner(System.in);
+		
+		int qtdNotas ;
+		
+		System.out.print("Quantas notas são? ");
+        qtdNotas = inputDados.nextInt();
+		inputDados.nextLine();
+		
+		double[] notas = new double [qtdNotas]; 
+		
+		for (int i = 0; i < notas.length; i++) {
+			System.out.println("informe a " + (i + 1) + "ª nota:");
+			notas[i] = inputDados.nextDouble();
+		}
+		
+	}
+
+}

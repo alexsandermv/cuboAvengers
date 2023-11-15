@@ -1,0 +1,16 @@
+package exercicioJava;
+
+import java.util.Scanner;
+
+public class ArrayMedia {
+
+	public static void main(String[] args) {
+
+		Scanner inputDados = new Scanner(System.in);
+		
+		
+		
+		
+	}
+
+}

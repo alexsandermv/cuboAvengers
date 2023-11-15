@@ -1,0 +1,17 @@
+package exercicioJava;
+
+import java.util.Scanner;
+
+public class ExercicioDoWhile {
+
+	public static void main(String[] args) {
+		
+		Scanner inputDados = new Scanner(System.in);
+		
+		System.out.println("=============================");
+		System.out.println("        Exercício 1          ");
+		System.out.println("=============================");
+
+	}
+
+}

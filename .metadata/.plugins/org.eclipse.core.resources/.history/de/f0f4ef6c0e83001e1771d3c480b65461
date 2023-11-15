@@ -1,0 +1,20 @@
+package orientacaoobjeto;
+
+public class ProdutoTeste {
+
+	public static void main(String[] args) {
+
+		Produto produto = new Produto();
+		
+		produto.nome = "Mac Mini";
+		produto.preco  = 7499.00;
+		produto.desconto = 0.10;
+		
+		System.out.println(produto.nome);
+		System.out.println(produto.preco);
+		System.out.println(produto.desconto);
+		
+
+	}
+
+}

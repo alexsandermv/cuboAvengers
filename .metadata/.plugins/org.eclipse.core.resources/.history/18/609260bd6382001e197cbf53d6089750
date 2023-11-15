@@ -1,0 +1,35 @@
+package avengers;
+
+import java.util.Scanner;
+
+public class NomesArray {
+
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        int qtdNomes;
+        System.out.println("Quantos nomes terá na lista: ");
+        qtdNomes = input.nextInt();
+        input.nextLine();
+        
+        String[] nomes = new String[qtdNomes];
+        
+        for(int i = 0; i < nomes.length; i++) {
+            System.out.println("Digite o " + (i + 1) + "° nome: ");
+            nomes[i] = input.nextLine();
+        }
+        
+        System.out.println("Os nomes da lista são: ");
+        
+        for (String listaNomes : nomes) {
+            System.out.println(listaNomes);
+        }
+        
+//        System.out.println("Os nomes da lista são: ");
+//        for (int i = 0; i < nomes.length; i++) {
+//            System.out.println(nomes[i]);
+//        }
+        
+        input.close();
+    }
