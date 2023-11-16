@@ -50,6 +50,7 @@ public class Endereco {
 		complemento = entradaDados.nextLine();		
 		
 		System.out.println("Seu nome é " + nomePessoa);
-		System.out.println("Mora em: " + rua + " Nº" + numero + " " + complemento  + " bairro " + bairro + " - " + cidade + "-"+ estado);
+		System.out.println("Mora em: " + cep + rua + " Nº" + numero + " " + complemento  + " bairro " + bairro + " - " + cidade + "-"+ estado);
+		entradaDados.close();
 	}
 }

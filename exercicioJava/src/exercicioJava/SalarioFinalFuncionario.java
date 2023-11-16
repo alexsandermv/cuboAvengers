@@ -41,7 +41,7 @@ public class SalarioFinalFuncionario {
 		System.out.printf(" é R$ %.2f\n", salarioFinal); 
 		
 		
-				
+		inputDados.close();
 		
 	}
 

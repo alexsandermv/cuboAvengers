@@ -19,6 +19,8 @@ public class EntradaDados {
 		System.out.println("Muito Prazer, " + nome);
 		System.out.println("Sua idade é: " + idade + " anos!");
 		
+		
+		inputDados.close();
 	}
 
 }

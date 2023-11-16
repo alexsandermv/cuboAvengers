@@ -43,6 +43,8 @@ public class IMC {
 		System.out.print("O IMC do paciente " + nomePaciente.toUpperCase());
 		System.out.printf(" é %.2f\n", imcPaciente);
 		System.out.println(resultadoImc);
+		
+		inputDados.close();
 	}
 
 }

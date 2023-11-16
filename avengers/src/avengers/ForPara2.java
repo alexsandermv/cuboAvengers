@@ -18,7 +18,7 @@ public class ForPara2 {
 		for (int i = 0; i <= num; i+=intervalo) {
 			System.out.println("i = " + i);
 		}
-		
+		inputDados.close();
 	}
 
 }

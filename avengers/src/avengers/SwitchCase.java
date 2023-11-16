@@ -33,7 +33,7 @@ public class SwitchCase {
 			conceito = "E";			
 			break;
 		}
-		
+		inputDados.close();
 		System.out.println(conceito);
 		
 	}

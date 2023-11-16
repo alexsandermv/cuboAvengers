@@ -40,7 +40,7 @@ public class OperacoesMatematicas {
 		System.out.println("O resultado de " + valor1 + " dividido por " + valor2 + " é: " + divisao);
 		
 		
-
+		entradaDeDados.close();
 	}
 
 }

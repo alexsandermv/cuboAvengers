@@ -33,7 +33,7 @@ public class DiasDaSemana {
 			System.out.println("Dia inválido");
 		}
 		
-		
+		inputDados.close();
 
 	}
 

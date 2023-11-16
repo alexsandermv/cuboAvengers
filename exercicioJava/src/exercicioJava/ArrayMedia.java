@@ -17,7 +17,7 @@ public class ArrayMedia {
 		double[] notas = new double[qtdNotas]; 			// criando o array conforme a quantidade de notas informada
 
 		for (int i = 0; i < notas.length; i++) {
-			System.out.println("informe a " + (i + 1) + "ª nota:"); 
+			System.out.print("informe a " + (i + 1) + "ª nota:"); 
 			notas[i] = inputDados.nextDouble(); 		// solicita as notas do aluno
 		}
 

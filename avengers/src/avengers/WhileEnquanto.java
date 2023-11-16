@@ -1,6 +1,5 @@
 package avengers;
 
-import java.util.Scanner;
 
 public class WhileEnquanto {
 

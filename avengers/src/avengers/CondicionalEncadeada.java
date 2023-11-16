@@ -30,6 +30,7 @@ public class CondicionalEncadeada {
 		} else {
 			System.out.println("Concenito E");
 		}
+		entradaDados.close();
 	}
 
 }

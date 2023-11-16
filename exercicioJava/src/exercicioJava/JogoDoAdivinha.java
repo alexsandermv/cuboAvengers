@@ -25,6 +25,7 @@ public class JogoDoAdivinha {
 		
 		System.out.println("Você escolheu " + numeroInformado + " e número sorteado foi "+ numeroSorteado + " você " + resultadoSorteio);
 		
+		entradaDados.close();
 				
 	}
 

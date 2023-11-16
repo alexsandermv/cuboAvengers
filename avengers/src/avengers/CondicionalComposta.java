@@ -8,7 +8,6 @@ public class CondicionalComposta {
 
 		Scanner entradaDados = new Scanner(System.in);
 		
-		int nasc;
 		int idade;
 		
 		System.out.print("Informe sua idade: ");
@@ -19,7 +18,8 @@ public class CondicionalComposta {
 		} else {          							// condicional composta
 			System.out.println("Menor de idade!");
 		}
-
+		
+		entradaDados.close();
 	}
 
 }

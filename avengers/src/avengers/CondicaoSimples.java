@@ -23,7 +23,8 @@ public class CondicaoSimples {
 			System.out.println("Aprovado");
 		}
 		System.out.println("Fim!");
-
+		
+		entradaDados.close();
 	}
 
 }
