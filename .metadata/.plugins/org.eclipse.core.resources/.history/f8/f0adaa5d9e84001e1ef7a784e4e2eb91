@@ -1,0 +1,29 @@
+package orientacaoobjeto;
+
+public class Carro {
+	
+	private String cor;
+	private String modelo;
+	private double valor;
+	
+	
+	public String getCor() {
+		return cor;
+	}
+	public String getModelo() {
+		return cor;
+	}
+	public String getValor() {
+		return cor;
+	}
+	
+	public void setCor(String corCarro) {
+		cor = corCarro;
+	}
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+}

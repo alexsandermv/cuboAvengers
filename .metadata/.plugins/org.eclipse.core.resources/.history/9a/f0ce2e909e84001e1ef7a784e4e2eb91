@@ -1,0 +1,19 @@
+package orientacaoobjeto;
+
+public class CarroTeste {
+
+	public static void main(String[] args) {
+
+		Carro v1 = new Carro();
+		
+		v1.setCor("Branco");
+		//v1.modelo = "BMW320i";
+		v1.setModelo("BMW320i");
+		v1.setValor(135000);
+		
+		System.out.println(v1.getCor());
+		System.out.println(v1.getModelo());
+		System.out.println(v1.getValor());
+	}
+
+}
