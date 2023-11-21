@@ -12,6 +12,8 @@ public class DataTeste {
 		
 		//String data = d1.formatarData();
 		
+		d1.imprimirDataFormatada();
+		
 		System.out.println(d1.formatarData("d","m","a"));
 		System.out.println(d1.formatarData("m","a"));
 	

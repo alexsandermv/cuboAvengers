@@ -6,6 +6,14 @@ public class Data {
 	private int mes;
 	private int ano;
 	
+	public String dataFormatada() {
+		return String.format("%d/%d/%d", dia,mes,ano);
+	}
+	
+	void imprimirDataFormatada() {
+		System.out.println(dataFormatada());
+	}
+	
 	public String formatarData (String d, String m, String a) {
 		return dia + "/" + mes + "/" + ano;
 	}
@@ -13,6 +21,9 @@ public class Data {
 		return mes + "/" + ano;
 	}
 	
+	public String formatarDataPorExtenso (String m, String a) {
+		return mes + "/" + ano;
+	}
 
 	
 	public int getDia() {

@@ -8,4 +8,13 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="orientacaoobjeto.Carro"/>
+    <fullyQualifiedTypeName name="exercicioJava.DataTeste"/>
+    <fullyQualifiedTypeName name="exercicioJava.Data"/>
+    <fullyQualifiedTypeName name="encapsulamento.CarroInterface"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="heranca.Professor"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="heranca.Pessoa"/>
+    <fullyQualifiedTypeName name="heranca.Funcionario"/>
 </qualifiedTypeNameHistroy>
