@@ -1,0 +1,18 @@
+package heranca;
+
+public class PessoaTeste2 {
+
+	public static void main(String[] args) {
+
+		Aluno aluno = new Aluno();
+		
+		aluno.setNome("Alexsander");
+		aluno.setIdade(27);
+		aluno.setCurso("Java");
+		aluno.setSexo("M");
+		
+		System.out.println(aluno.toString());
+
+	}
+
+}

@@ -13,8 +13,14 @@
     <fullyQualifiedTypeName name="exercicioJava.Data"/>
     <fullyQualifiedTypeName name="encapsulamento.CarroInterface"/>
     <fullyQualifiedTypeName name="java.lang.Process"/>
-    <fullyQualifiedTypeName name="heranca.Professor"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="heranca.Pessoa"/>
     <fullyQualifiedTypeName name="heranca.Funcionario"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="polimorfismo.Animal"/>
+    <fullyQualifiedTypeName name="polimorfismo.Ave"/>
+    <fullyQualifiedTypeName name="polimorfismo.Canario"/>
+    <fullyQualifiedTypeName name="polimorfismo.Mamifero"/>
+    <fullyQualifiedTypeName name="polimorfismo.Cachorro"/>
+    <fullyQualifiedTypeName name="heranca.Aluno"/>
+    <fullyQualifiedTypeName name="heranca.Professor"/>
 </qualifiedTypeNameHistroy>

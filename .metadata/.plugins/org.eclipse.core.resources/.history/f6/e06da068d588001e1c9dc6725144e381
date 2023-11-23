@@ -1,0 +1,24 @@
+package polimorfismo;
+
+public class Ave extends Animal{
+
+	@Override
+	public void movimentar() {
+		System.out.println("Voando");
+		
+	}
+
+	@Override
+	public void alimentar() {
+		System.out.println("Comendo Fruta");
+	}
+
+	@Override
+	public void emitirSom() {
+		System.out.println("Som de Ave");
+		
+	}
+	
+	
+
+}

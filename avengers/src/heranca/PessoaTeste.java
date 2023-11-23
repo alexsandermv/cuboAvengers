@@ -26,6 +26,18 @@ public class PessoaTeste {
 		
 		
 		System.out.println(f1);
+		
+		Aluno aluno2 = new Aluno();			//instanciando classe aluno que tem acesso aos atributos de pessoa
+		
+		aluno2.setNome("Alex");
+		aluno2.setMatricula(1092);
+		aluno2.setIdade(27);
+		aluno2.setSexo("Masculino");
+		
+		System.out.println(aluno2.toString());
+		
+		aluno2.fazerAniversario();
+		System.out.println(aluno2.toString());
 	}
 
 }

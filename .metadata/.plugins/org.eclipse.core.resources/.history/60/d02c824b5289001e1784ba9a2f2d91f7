@@ -1,0 +1,15 @@
+package polimorfismo;
+
+public class PolimorfismoTeste {
+
+	public static void main(String[] args) {
+
+		Cachorro tobi = new Cachorro();
+		
+		tobi.setPeso(10);
+		tobi.setIdade(2);
+		System.out.println("Som do Cachorro: ");
+		tobi.emitirSom();
+	}
+
+}

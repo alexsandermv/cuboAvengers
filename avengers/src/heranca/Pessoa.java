@@ -46,5 +46,13 @@ public class Pessoa {
 		this.sexo = sexo;
 	}
 	
+	@Override
+	public String toString() {
+		return "\n[Nome: " + nome + "\nIdade: " + idade + "\nSexo: " + sexo +"]";
+	}
+	
+	public void fazerAniversario() {
+		this.idade ++; //incrementa 1 
+	}
 	
 }

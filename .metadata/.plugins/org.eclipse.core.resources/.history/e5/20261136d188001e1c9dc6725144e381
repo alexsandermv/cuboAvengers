@@ -1,0 +1,17 @@
+package polimorfismo;
+
+public class PessoaTeste {
+
+	public static void main(String[] args) {
+
+		Aluno aluno = new Aluno();			//instanciando classe aluno que tem acesso aos atributos de pessoa
+		
+		aluno.setNome("Alex");
+		aluno.setMatricula(1092);
+		aluno.setIdade(27);
+		aluno.setSexo("Masculino");
+		
+		System.out.println(aluno.toString());
+	}
+
+}
