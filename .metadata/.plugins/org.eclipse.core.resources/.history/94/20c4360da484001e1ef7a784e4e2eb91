@@ -1,9 +1,0 @@
-package exercicioJava;
-//mostrar a data formatada a partir da classe 
-public class DataTeste {
-
-	public static void main(String[] args) {
-
-	}
-
-}

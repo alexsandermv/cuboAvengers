@@ -1,0 +1,15 @@
+package exemplo;
+
+public class FilmeTeste {
+
+	public static void main(String[] args) {
+
+		Filme filme = new Filme();
+		
+		filme.nome = "Matrix";
+		
+		System.out.println("Filme");
+
+	}
+
+}

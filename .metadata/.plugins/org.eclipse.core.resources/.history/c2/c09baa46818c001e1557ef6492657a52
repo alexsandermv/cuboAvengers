@@ -1,0 +1,15 @@
+package exemplo;
+
+public class ContaTeste {
+
+	public static void main(String[] args) {
+
+		Conta c1 = new Conta();
+		ContaCorrente cc = new ContaCorrente();
+		
+		c1.abrirConta();
+		cc.abrirConta();
+
+	}
+
+}

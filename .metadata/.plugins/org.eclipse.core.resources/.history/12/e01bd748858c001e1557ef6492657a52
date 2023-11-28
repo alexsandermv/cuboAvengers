@@ -1,0 +1,29 @@
+package exemplo;
+
+public class ContaCorrente extends Conta{
+		
+	@Override
+	public void abrirConta() {
+		this.setSaldo(50);
+		System.out.println(" * Seja Bem-Vindo ao CUBO BANK *");
+		System.out.println("Saldo de bonificação R$" + getSaldo());
+		System.out.println("Conta aberta com SUCESSO!");
+	}
+	
+	public void depositar(double valor) {
+		this.setSaldo(valor + this.getSaldo());
+		System.out.println("Valor do depósito: R$" + valor);
+	}
+	
+	@Override
+	public void transferir(double pix) {
+		if (this.getSaldo() > 0 && this.getSaldo() >= pix) {
+			this.setSaldo(this.getSaldo() - pix);
+			System.out.println("Pix realizado com sucesso!");
+		}else {
+			System.out.println("Valor do Pix: R$:" + pix);
+			System.out.println("Saldo Insuficiente");
+		}
+		
+	}
+}

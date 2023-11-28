@@ -1,0 +1,16 @@
+package exemplo;
+
+public class FilmeTeste {
+
+	public static void main(String[] args) {
+
+		Filme filme = new Filme();
+		
+		filme.setNome("Matrix");
+		
+		System.out.println("Filme" + filme.getNome());
+		
+
+	}
+
+}

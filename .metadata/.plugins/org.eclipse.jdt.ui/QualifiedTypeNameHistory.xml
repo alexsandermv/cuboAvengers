@@ -5,8 +5,6 @@
     <fullyQualifiedTypeName name="orientacaoobjeto.Produto"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="orientacaoobjeto.Carro"/>
     <fullyQualifiedTypeName name="exercicioJava.DataTeste"/>
@@ -15,7 +13,6 @@
     <fullyQualifiedTypeName name="java.lang.Process"/>
     <fullyQualifiedTypeName name="heranca.Pessoa"/>
     <fullyQualifiedTypeName name="heranca.Funcionario"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="polimorfismo.Animal"/>
     <fullyQualifiedTypeName name="polimorfismo.Ave"/>
     <fullyQualifiedTypeName name="polimorfismo.Canario"/>
@@ -23,4 +20,10 @@
     <fullyQualifiedTypeName name="polimorfismo.Cachorro"/>
     <fullyQualifiedTypeName name="heranca.Aluno"/>
     <fullyQualifiedTypeName name="heranca.Professor"/>
+    <fullyQualifiedTypeName name="exemplo.Conta"/>
+    <fullyQualifiedTypeName name="exemplo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="javax.imageio.plugins.tiff.GeoTIFFTagSet"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

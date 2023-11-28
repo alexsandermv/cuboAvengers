@@ -1,8 +1,0 @@
-package orientacaoobjeto;
-
-public class Carro {
-	
-	private String cor;
-	private String modelo;
-	private double valor;
-}

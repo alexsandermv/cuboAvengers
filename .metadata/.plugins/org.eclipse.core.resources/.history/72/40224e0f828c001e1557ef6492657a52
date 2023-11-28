@@ -1,0 +1,21 @@
+package exemplo;
+
+import javax.imageio.plugins.tiff.GeoTIFFTagSet;
+
+public class ContaTeste {
+
+	public static void main(String[] args) {
+
+		Conta c1 = new Conta();
+		ContaCorrente cc = new ContaCorrente();
+		
+		cc.abrirConta();
+		System.out.println(cc.getSaldo());
+		
+		cc.setSaldo(1000);
+		
+		cc.consultaSaldo();
+		
+	}
+
+}

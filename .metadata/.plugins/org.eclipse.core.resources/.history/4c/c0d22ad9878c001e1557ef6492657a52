@@ -1,0 +1,49 @@
+package exemplo;
+
+import java.util.Scanner;
+
+public class ContaTeste {
+
+	public static void main(String[] args) {
+
+		int opcao;
+		double valor;
+		ContaCorrente cc = new ContaCorrente();
+		
+		cc.abrirConta();
+		
+		
+		
+		System.out.println("Selecione uma opção:");
+		System.out.println("         1- Consulta Saldo");
+		System.out.println("         2- Pix");
+		System.out.println("         3- Trocar Senha");
+		
+		Scanner input = new Scanner(System.in);
+		opcao = input.nextInt();
+		
+		System.out.println(opcao);
+		if (opcao == 1) {
+			cc.consultaSaldo();
+		}else if (opcao == 2) {
+			System.out.println("Digite o valor: ");
+			valor = input.nextDouble();
+			System.out.println("Digite a senha: ");
+			int senha = input.nextInt();
+			cc.transferir(valor, senha);
+		}
+	
+		System.out.println(cc.getSaldo());
+		
+		cc.trocarSenha(1350);
+		
+		cc.depositar(1000);
+		
+		cc.consultaSaldo();
+		
+		cc.transferir(1000,1350);
+		
+		input.close();
+	}
+
+}

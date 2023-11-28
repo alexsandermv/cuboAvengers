@@ -1,0 +1,11 @@
+package exemplo;
+
+public class ContaCorrente extends Conta{
+	
+	private double pix;
+	
+	@Override
+	public void abrirConta() {
+		this.setSaldo(50);;
+	}
+}
