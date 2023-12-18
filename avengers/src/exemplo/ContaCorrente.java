@@ -4,10 +4,13 @@ public class ContaCorrente extends Conta {
 
 	@Override
 	public void abrirConta() {
+		double aleatorio = Math.random();
 		this.setSaldo(50);
+		this.setNumConta((int) (0 + aleatorio * (10000 - 1)) );
 		System.out.println(" * Seja Bem-Vindo ao CUBO BANK *");
 		System.out.println("Saldo de bonificação R$" + getSaldo());
 		System.out.println("Conta aberta com SUCESSO!");
+		System.out.println("Seu número de conta é: " + getNumConta());
 	}
 
 	public void depositar(double valor) {

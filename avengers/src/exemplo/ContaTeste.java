@@ -6,7 +6,7 @@ public class ContaTeste {
 
 	public static void main(String[] args) {
 
-		int opcao = 0;
+		int opcaoA = 0;
 		double valor;
 		int senhaAntiga;
 		int senhaNova;
@@ -16,38 +16,44 @@ public class ContaTeste {
 		cc.abrirConta();
 		cc.setSenha(1350);
 
-		while (opcao == 0) {
+		while (opcaoA == 0) {
 			System.out.println();
 			System.out.println();
 			System.out.println("Selecione uma opção:");
 			System.out.println("         1- Consulta Saldo");
 			System.out.println("         2- Pix");
 			System.out.println("         3- Trocar Senha");
-			opcao = input.nextInt();
+			opcaoA = input.nextInt();
 
-			if (opcao == 1) {
+			if (opcaoA == 1) {
 				cc.consultaSaldo();
-				opcao = 0;
-			} else if (opcao == 2) {
+				opcaoA = 0;
+			} else if (opcaoA == 2) {
 				System.out.print("Digite o valor: ");
 				valor = input.nextDouble();
 				System.out.print("Digite a senha: ");
 				int senha = input.nextInt();
 				cc.transferir(valor, senha);
-				opcao = 0;
-			} else if (opcao == 3) {
+				opcaoA = 0;
+			} else if (opcaoA == 3) {
 				System.out.print("Digite a senha antiga: ");
 				senhaAntiga = input.nextInt();
-				if (cc.validaSenhaAntiga(senhaAntiga)) {
+				int i = 0;
+				while (i < 2 && cc.validaSenhaAntiga(senhaAntiga) == false) {
+					System.out.print("Senha inválida! Digite a senha antiga novamente: ");
+					senhaAntiga = input.nextInt();
+					i++;
+					cc.setContaBloqueada(true);
+				}
+				if (cc.getContaBloqueada() == true) {
+					System.out.println("**********Conta bloqueada*******");
+				}else {
+
 					System.out.print("Digite a senha nova:");
 					senhaNova = input.nextInt();
 					cc.trocarSenha(senhaAntiga, senhaNova);
-					opcao = 0;
-				} else {
-					System.out.print("Senha antiga inválida");
-					opcao = 3;
+					opcaoA = 0;
 				}
-
 			}
 		}
 		input.close();

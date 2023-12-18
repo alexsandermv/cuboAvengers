@@ -6,7 +6,7 @@ public class Conta {
 	protected String tipo;
 	protected String titular;
 	protected double saldo;
-	protected boolean status;
+	protected boolean contaBloqueada;
 	protected String cpf;
 	protected int senha;
 
@@ -50,12 +50,12 @@ public class Conta {
 		this.saldo = saldo;
 	}
 
-	public boolean getStatus() {
-		return status;
+	public boolean getContaBloqueada() {
+		return contaBloqueada;
 	}
 
-	public void setStatus(boolean status) {
-		this.status = status;
+	public void setContaBloqueada(boolean contaBloqueada) {
+		this.contaBloqueada = contaBloqueada;
 	}
 
 	public String getCpf() {
