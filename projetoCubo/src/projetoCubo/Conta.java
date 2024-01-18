@@ -95,6 +95,14 @@ public class Conta {
 		this.setSenha(senhaNova);
 		System.out.println("Senha Alterada com sucesso!");
 	}
+	
+	public void limparVariaveis() {
+		this.setSenha(0);
+		this.setContaBloqueada(false);
+		this.setSaldo(0);
+		this.setNumConta(0);
+		System.out.println("...");
+	}
 
 
 	public void sacar(double valor, int senha) {
